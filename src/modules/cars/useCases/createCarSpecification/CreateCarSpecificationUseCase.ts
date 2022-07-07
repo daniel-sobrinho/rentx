@@ -7,6 +7,7 @@ import { ISpecificationsRepository } from "../../repositories/ISpecificationsRep
 
 interface IRequest {
     car_id: string;
+
     specifications_id: string[];
 }
 
